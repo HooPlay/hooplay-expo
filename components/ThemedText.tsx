@@ -35,24 +35,26 @@ export function ThemedText({
 
 const styles = StyleSheet.create({
   default: {
+    fontFamily: 'Pretendard-Regular',
     fontSize: 16,
     lineHeight: 24,
   },
   defaultSemiBold: {
+    fontFamily: 'Pretendard-SemiBold',
     fontSize: 16,
     lineHeight: 24,
-    fontWeight: '600',
   },
   title: {
+    fontFamily: 'Pretendard-Black',
     fontSize: 32,
-    fontWeight: 'bold',
     lineHeight: 32,
   },
   subtitle: {
-    fontSize: 20,
-    fontWeight: 'bold',
+    fontFamily: 'Pretendard-Bold',
+    fontSize: 24,
   },
   link: {
+    fontFamily: 'Pretendard-Regular',
     lineHeight: 30,
     fontSize: 16,
     color: '#0a7ea4',
